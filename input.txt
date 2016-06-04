@@ -1,0 +1,31 @@
+pushTransform 
+pushTransform 
+pushTransform 
+translate 0 20 0  
+light1 
+popTransform 
+translate 50 20 100 
+light2 
+popTransform 
+pushTransform 
+translate -500 20 0 
+light3 
+translate - 100 20 20
+drawCube 
+popTransform 
+drawPlane 
+translate 0 0 40
+scale 0.5 0.5 0.5
+setColor 1 0 0.3
+drawTeapot 
+translate 0 0 80
+scale 2 2 2
+drawSphere 
+translate 25 25 25
+translate 50 0 0 
+setColor 0 1 1 
+drawCube 
+translate 100 -30 0 
+scale 0.5 0.5 2s
+setColor 1.0 0.1 0.1
+drawCube 
